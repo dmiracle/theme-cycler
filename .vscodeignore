@@ -1,0 +1,22 @@
+# .vscodeignore
+
+# Ignore all files in the .git directory
+.git/**
+
+# Ignore all log files
+*.log
+
+# Ignore all node modules
+node_modules/**
+
+# Ignore all typescript files as they get compiled to js
+**/*.ts
+
+# Ignore all test files
+test/**
+
+# Ignore all files in the .vscode directory
+.vscode/**
+
+# Ignore the package-lock.json file
+package-lock.json
